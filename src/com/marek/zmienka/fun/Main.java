@@ -16,12 +16,17 @@ public class Main {
         System.out.println("Select program to run:");
         int programNumber = s.nextInt();
         switch (programNumber) {
+<<<<<<< HEAD
             case 0: {
                 AlgList.listOfAlgs();
                 runProgram();
             }
             case 1: A1.a1();
                 break;
+=======
+            case 1: A1.sortArrays();
+            break;
+>>>>>>> A1
             default: throw new Exception("Wrong choice");
         }
     }
