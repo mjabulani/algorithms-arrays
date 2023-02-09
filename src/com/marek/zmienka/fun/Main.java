@@ -11,7 +11,8 @@ public class Main {
         System.out.println("Select program to run:");
         int programNumber = s.nextInt();
         switch (programNumber) {
-            case 1: A1.a1();
+            case 1: A1.sortArrays();
+            break;
             default: throw new Exception("Wrong choice");
         }
     }
