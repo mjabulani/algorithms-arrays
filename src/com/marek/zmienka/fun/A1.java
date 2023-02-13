@@ -8,7 +8,7 @@ public class A1 {
 
     public static String STRING_CHARS = "asdfghjklqwertyuiozxcvbnm";
 
-    public static void main(String[] args) {
+    public static void a1() {
 
 
         ArrayList<String> arrayStr = generateStringArray();

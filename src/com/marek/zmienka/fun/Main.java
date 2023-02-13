@@ -7,6 +7,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
+        runProgram();
     }
 
     public static void runProgram() throws Exception {
@@ -18,6 +19,7 @@ public class Main {
                 AlgList.listOfAlgs();
                 runProgram();
             }
+            case 1: A1.a1();
             break;
             default: throw new Exception("Wrong choice");
         }
