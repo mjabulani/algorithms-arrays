@@ -20,6 +20,7 @@ public class Main {
                 runProgram();
             }
             case 1: A1.a1();
+            case 4: A4.run();
             break;
             default: throw new Exception("Wrong choice");
         }
