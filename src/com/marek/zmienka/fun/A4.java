@@ -38,6 +38,25 @@ public class A4 {
         return array;
     }
 
+    public static ArrayList<Integer> generateArrayNoOccurances(int length, int min, int max) {
+        ArrayList<Integer> array = new ArrayList<Integer>();
+        Random r = new Random();
+        if (min >= max) {
+            throw new IllegalArgumentException("min must be < than max ");
+        } else {
+            while (array.size() < length) {
+                int tempValue = r.nextInt((max - min) + 1) + min;
+                if (!array.contains(tempValue)) {
+                    array.add(tempValue);
+                }
+            }
+        }
+
+
+        return array;
+    }
+
+
     public static float calcAv(ArrayList<Integer> array) {
         int sum = 0;
         for (int i = 0; i < array.size(); i++) {
