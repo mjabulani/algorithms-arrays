@@ -26,7 +26,8 @@ public class Main {
             case 8: A8.run();
             case 11: A11.run();
             case 14: A14.run();
-            break;
+            case 16: A16.run();
+            case 17: A17.run();
             default: throw new Exception("Wrong choice");
         }
     }

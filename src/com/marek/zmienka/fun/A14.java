@@ -5,9 +5,7 @@ import java.util.Collections;
 
 public class A14 {
 
-    public static void main(String[] args) {
-        run();
-    }
+
 
     public static void run() {
 

@@ -6,9 +6,7 @@ import java.util.HashSet;
 
 public class A16 {
 
-    public static void main(String[] args) {
-        run();
-    }
+
     public static void run() {
         System.out.println("#### 16. Remove duplicates from int array");
         ArrayList<Integer> arr = A4.generateArray(10, 5, 7);

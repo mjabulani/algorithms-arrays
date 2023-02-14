@@ -11,6 +11,8 @@ public class AlgList {
                 "6. index of given int" +
                 "8. iterate through array" +
                 "11. reverse integer array" +
-                "14. Common elementos of two generated arrays");
+                "14. Common elementos of two generated arrays" +
+                "16. Remove duplicates from array" +
+                "17. Find second largest int in array");
     }
 }
