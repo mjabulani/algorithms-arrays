@@ -16,6 +16,7 @@ public class AlgList {
                 "17. Find second largest int in array" +
                 "208. Investment with % skladany" +
                 "210. Leap year test" +
-                "211. Password test" );
+                "211. Password test" +
+                "212. Draw matrix of given size" );
     }
 }
