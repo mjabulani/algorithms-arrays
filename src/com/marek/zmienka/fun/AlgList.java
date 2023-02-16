@@ -15,6 +15,7 @@ public class AlgList {
                 "16. Remove duplicates from array" +
                 "17. Find second largest int in array" +
                 "208. Investment with % skladany" +
-                "210. Leap year test" );
+                "210. Leap year test" +
+                "211. Password test" );
     }
 }
